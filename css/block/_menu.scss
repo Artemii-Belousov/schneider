@@ -1,0 +1,27 @@
+.nav {
+    background-color: #777777;
+    
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        padding: 20px 0 25px 0;
+        li {
+            padding: 0 17px;
+
+            a {
+                font-size: 18px;
+                letter-spacing: 0px;
+                color: #ffffff;
+                font-weight: 400;
+                text-decoration: none;
+            }
+            a:hover {
+                border-bottom: solid 2px #fff;
+            }
+        }
+        li:not(:last-child) {
+            border-right: solid 2px #fff;
+        }
+    }
+}
